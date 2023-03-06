@@ -1,0 +1,69 @@
+  for ( keyDep of depense) {
+        resultatBase += (parseFloat(keyDep.value));
+    }
+
+    for( keyRecette of recette){
+        resultatBaseRecette += (parseFloat(keyRecette.value));
+    }
+    //Exemple utilisation de la boucle for de la padawan
+    // for(let i = 0; i < depense.length; i++) {
+    //     resultatBase += (parseFloat(depense[i].value));
+    //     console.log(depense[i].value);
+    // }
+
+    total = resultatBaseRecette - resultatBase;
+    if(total < 0) {
+        resultTotal.innerHTML=total;
+        totalCat4.innerHTML = "Veuillez vous refaire car votre compte est en négatif";
+    }
+    else if (total === 0){
+        resultTotal.innerHTML = total;
+        totalCat4.innerHTML = "vous etes ni riche ni pauvre  juste en porte a faux!";
+    }
+    else {
+        resultTotal.innerHTML= total;
+        totalCat4.innerHTML = "C est bien vous progresser dans vos richesse";
+    }
+
+    reset.addEventListener('click', function () {
+        window.location.reload();
+
+    });
+});
+
+
+
+code recent  :
+
+// function clickAfficheQuestions() {
+//     start.addEventListener("click", function () {
+//
+//         // for (let element of Questions) {
+//             let result = document.getElementById("afficheMoiQuestion")
+//         //     result.innerHTML = Questions[index].question
+//         //     console.log(result)
+//
+//             // for (let i = 0; i < choix.length; i++) {
+//             //     choix[i].innerHTML = Questions[index].choiceAnswer[i];console.log(choix)
+//             // }
+//         }
+//     })
+// }
+
+// clickAfficheQuestions()
+
+// function buttonChoice() {
+//     for (let i = 0; i < choix.length; i++) {
+//         choix[i].addEventListener("click", function () {
+//             console.log(Questions); console.log("blabla");
+//             // start.innerHTML ="Question suivante";
+//             for(let quest of Questions[i].question[i]){
+//                 index++;
+//             }
+//
+//
+//         })
+//     }
+// }
+//
+// buttonChoice()
