@@ -9,26 +9,40 @@ html {
 }
 
 body {
+    background-image: url('/public/assets/images/quiztimemodif.jpg');
+    background-size:cover;
+
 
 }
+
 
 #content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
 }
 
 .title {
     margin-top: 2rem;
     margin-bottom: 3rem;
+    color:crimson;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .SubTitle{
     margin-bottom: 2rem;
+    color: orangered;
 }
 button{
     width: 15rem;
+    color:blue;
+    border-radius:20px ;
+
+    border-color: orangered;
+
 }
 
 #button {
@@ -37,6 +51,7 @@ button{
     margin-right: auto;
     margin-top: 3rem;
     height: 7rem;
+
 }
 
 .seequestion{
@@ -51,6 +66,9 @@ button{
 
 #afficheMoiQuestion{
     font-size: 3rem;
+    color:white;
+   font-style: italic;
+    font-weight: bold;
 
 }
 #answer{
@@ -64,6 +82,7 @@ button{
 #récapQuestionsOfResponse{
     margin-top: 3rem;
     font-size: 2rem;
+    color: white;
 }
 
 @media screen and (max-width: 752px ) {
@@ -83,7 +102,11 @@ button{
 }
 
 @media screen and (max-width: 320px ) {
-#button{
+body{
+    background-position: center;
+}
+
+    #button{
     display: flex;
     justify-content: center;
 
@@ -92,10 +115,12 @@ button{
     display: flex;
     justify-content: center;
     margin-right: 3rem;
+    font-size: 2.5rem;
 
 }
 #récapQuestionsOfResponse{
     font-size: 1rem;
+    font-weight: bold;
 }
 }
 
