@@ -15,14 +15,14 @@ let Questions = [
 
     },
     {
-        question: " aux cours de quel année à été inventé le langage de programmation C ?",
+        question: " aux cours de quel année<br/> à été inventé le langage de programmation C ?",
         choiceAnswer: ["  Choix 1:  1972 ", " Choix 2: 1978  ", " Choix 3:197"],
         answer: 0
 
     },
 
     {
-        question: "l' update du python 2 aux python3 c est passer durant quel mois ?",
+        question: "l' update du python 2 aux python3 <br/>c est passer durant quel mois ?",
         choiceAnswer: [" Choix 1: Avril ", " Choix 2: Octobre  ", " Choix 3: Décembre "],
         answer: 2
 
@@ -40,14 +40,14 @@ let Questions = [
 
     },
     {
-        question: " Il y a plusieurs façons d'écrires du C++  de manière fonctionnel ?",
+        question: " Il y a plusieurs façons d'écrires<br/> du C++ de manière fonctionnel ?",
         choiceAnswer: [" Choix 1: à la main ", " Choix 2:  En pyrogravure   ", " Choix 3: ou en blueprint "],
         answer: 2
 
     },
     {
         question: " Quel est la première page web mise en ligne en 1990 ?",
-        choiceAnswer: [" Choix 1: http://nxoc01.cern.ch/hypertext/WWW/TheProject.html  ", " Choix 2: http://hypertext/WWW/TheProject.", " Choix 3:  http://Project.world.wide.web.html "],
+        choiceAnswer: [" Choix 1: http://nxoc01.cern.ch/<br/>hypertext/WWW/<br/>TheProject.html  ", " Choix 2: http://hypertext/<br/>WWW/TheProject.", " Choix 3:  http://Project.<br/>world.wide.web.html "],
         answer: 0
 
     },
